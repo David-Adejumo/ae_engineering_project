@@ -19,7 +19,7 @@ The main goals of this project are to:
 ### 1. Ingestion
 -  **Tool**: Python (`pandas`, `sqlite3`)
 - **Reason**: Python is lightweight and flexible, making it ideal for reading CSVs and inserting into a local SQLite database.
-- The raw data (`customer_orders.csv`) is ingested into a local SQLite DB (`customer_order.db`) for portability and offline development.
+- The raw data (`customer_orders.csv`) is ingested into a local SQLite DB (`etl_staging.db`) for portability and offline development.
 
 ### 2. Transformation
 -  **Tool**: dbt (`dbt-core`, `dbt-sqlite`)
@@ -62,7 +62,7 @@ The source dataset `customer_orders.csv` contains:
 | Step           | Tool / Tech Used           | Reason It Was Used                                                               |
 |----------------|----------------------------|-------------------------------------------------------------------------------|
 | Ingestion      | Python (`pandas`, `sqlite3`)| Lightweight and flexible for reading CSVs and loading into SQLite             |
-| Storage        | SQLite (`assessment.db`)    | File-based DB, zero configuration, perfect for local analytics and portability |
+| Storage        | SQLite (`etl_staging.db`)    | File-based DB, zero configuration, perfect for local analytics and portability |
 | Transformation | dbt (`dbt-core`, `dbt-sqlite`)| Clean, modular SQL models with lineage, tests, and reproducibility           |
 | Analytics       | Power BI                  | Easy-to-use dashboards for business teams and non-technical users             |
 

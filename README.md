@@ -1,6 +1,6 @@
 #Customer Orders Analytics Project (dbt + SQLite + Power BI)
 
-This project is part of an end-to-end ETL and analytics pipeline that transforms raw customer order data into actionable business insights using **Python**, **SQLite**, **dbt**, and **Power BI**. It was designed to demonstrate practical data engineering and business intelligence skills using a lightweight, modular, and explainable stack.
+This project is part of an end-to-end ETL and analytics pipeline that transforms raw customer order data into actionable business insights using **Python**, **SQLite**, **dbt**, and **Power BI**. It was designed to demonstrate practical data engineering and business intelligence skills using a lightweight, modular, and widely used stack.
 
 ---
 

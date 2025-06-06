@@ -1,0 +1,6 @@
+models:
+  - name: avg_order_value_delivered
+    description: The basic calculation for order valued for delivered product.
+    columns:
+      - name: avg_order_value
+        description: The average price sold for each product.

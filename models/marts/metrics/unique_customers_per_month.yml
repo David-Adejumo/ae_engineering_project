@@ -1,0 +1,8 @@
+models:
+  - name: unique_customers_per_month
+    description: Customer data with basic cleaning and transformation applied, one row per customer.
+    columns:
+      - name: unique_customers
+        description: The unique key for each order.
+      - name: order_month
+        description: The extraction of each month

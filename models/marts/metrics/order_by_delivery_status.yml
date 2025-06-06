@@ -1,0 +1,8 @@
+models:
+  - name: order_by_delivery_status
+    description: The status for each delivery
+    columns:
+      - name: delivery_status
+        description: The status of each delivery.
+      - name: order_count
+        description: The total count for each transaction.

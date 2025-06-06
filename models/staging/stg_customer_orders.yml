@@ -1,0 +1,22 @@
+models:
+  - name: stg_customer_orders
+    description: Customer data with basic cleaning and transformation applied, one row per customer.
+    columns:
+      - name: order_id
+        description: The unique key for each customer.
+      - name: customer_id
+        description: The unique key for each order.
+      - name: order_date
+        description: The transaction order date.
+      - name: product_category
+        description: The product category for each transaction.
+      - name: product_name
+        description: The product name for each transaction.
+      - name: quantity
+        description: The quantity sold for each transaction
+      - name: price_per_unit
+        description: The price sold per unit for each transaction
+      - name: discount_applied
+        description: The discount applied to each transaction
+      - name: delivery_status
+        description: The delivery status to each transaction

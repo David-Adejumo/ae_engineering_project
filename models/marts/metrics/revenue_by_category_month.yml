@@ -1,0 +1,11 @@
+models:
+  - name: revenue_by_category_month
+    description: The revenue for each product category per month 
+    columns:
+      - name: product_category
+        description: The product category for each transaction.
+      - name: order_month
+        description: The order month for each transaction
+      - name: total revenue
+        description: The total revenue for each transaction
+      

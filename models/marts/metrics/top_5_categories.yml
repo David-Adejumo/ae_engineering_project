@@ -1,0 +1,9 @@
+models:
+  - name: top_5_categories
+    description: Calculate the top 5 product per category
+    columns:
+      - name: product_category
+        description: The product category for each transaction
+      - name: total_revenue
+        description: The total revenue sold to each transaction
+      

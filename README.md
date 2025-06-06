@@ -92,16 +92,17 @@ Key metrics produced from the transformed data:
 
 4. **Top-Selling Product name**
    
-   Best Performers:
+   **Best Performers:**
+   
     • Jeans (**₦75K, 11%** revenue share) and Tablet (**₦72K, 11%**) drive sales.
     • Energy Drink and History Book also contribute significantly (~10% each).
-    •** Lowest Margin:** Organic Tea (**9.3%** revenue) has the lowest average sales (₦750). Test pricing or marketing tactics to improve its performance.
+    •**Lowest Margin:** Organic Tea (**9.3%** revenue) has the lowest average sales (₦750). Test pricing or marketing tactics to improve its performance.
    
-5. **Customer Behavior**
+6. **Customer Behavior**
     • Avg. Order Value (Delivered): **₦744**
     • **High-Value Products:** Air Fryer (₦885/order) and History Book (₦785/order) have the highest average sales.
    
-6. **Monthly Trends**
+7. **Monthly Trends**
     • Revenue Peaks: Observe spikes in the month of October, **2023 with ~140K** and **563** in value and count respectively
 
 ---

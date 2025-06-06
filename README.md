@@ -18,7 +18,7 @@ The main goals of this project are to:
 ## Methodology
 ### 1. Ingestion
 -  **Tool**: Python (`pandas`, `sqlite3`)
-- 📌 **Reason**: Python is lightweight and flexible, making it ideal for reading CSVs and inserting into a local SQLite database.
+- **Reason**: Python is lightweight and flexible, making it ideal for reading CSVs and inserting into a local SQLite database.
 - The raw data (`customer_orders.csv`) is ingested into a local SQLite DB (`customer_order.db`) for portability and offline development.
 
 ### 2. Transformation
@@ -30,7 +30,7 @@ The main goals of this project are to:
 
 ### 3. Visualization
 - **Tool**: Power BI 
-- 📌 **Reason**: These tools easily connect to SQLite and make it simple for stakeholders to explore insights visually without writing code.
+-  **Reason**: These tools easily connect to SQLite and make it simple for stakeholders to explore insights visually without writing code.
 
 ---
 

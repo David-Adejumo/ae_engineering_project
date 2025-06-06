@@ -64,7 +64,7 @@ The source dataset `customer_orders.csv` contains:
 | Ingestion      | Python (`pandas`, `sqlite3`)| Lightweight and flexible for reading CSVs and loading into SQLite             |
 | Storage        | SQLite (`assessment.db`)    | File-based DB, zero configuration, perfect for local analytics and portability |
 | Transformation | dbt (`dbt-core`, `dbt-sqlite`)| Clean, modular SQL models with lineage, tests, and reproducibility           |
-| Analysis       | Power BI / Tableau         | Easy-to-use dashboards for business teams and non-technical users             |
+| Analytics       | Power BI                  | Easy-to-use dashboards for business teams and non-technical users             |
 
 ---
 

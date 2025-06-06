@@ -28,6 +28,11 @@ The main goals of this project are to:
   - **Intermediate** (feature engineering)
   - **Marts** (business metrics)
 
+**After the data transformation, below is the data lineage from your source to the business logic:**
+
+<img width="925" alt="dbt_lineage" src="https://github.com/user-attachments/assets/52182540-2b25-4d7b-bc22-6630087d649c" />
+
+
 ### 3. Visualization
 - **Tool**: Power BI 
 -  **Reason**: These tools easily connect to SQLite and make it simple for stakeholders to explore insights visually without writing code.
@@ -75,32 +80,49 @@ The source dataset `customer_orders.csv` contains:
 ##  Key Insights
 Key metrics produced from the transformed data:
 
-1. **Top 5 Product Categories**  
-   - Highest contributors to total revenue (e.g., Electronics, Clothing)
+1. **Revenue & Delivery Performance**
+   
+    • **Total Revenue:** **1.46M** (with 20% from delivered orders).
+    • **Delivery Challenges:** **18%** of revenue tied to cancelled orders, **21%** to returned orders (highest among all statuses).
+   
+3. **Product Category Analysis**
 
-2. **Average Order Value (Delivered Orders)**  
-   - Helps evaluate profitability from completed sales
+    • **Top Performers:**
+    • **Food & Beverage** (**21%** revenue share, **₦309K**) and **Home Goods** (**20%, ₦296K**) lead in revenue, Books and Clothing follow closely (~19% each).
 
-3. **Monthly Revenue Trends**  
-   - Shows seasonality and marketing campaign performance
-
-4. **Delivery Status Distribution**  
-   - Identifies fulfillment bottlenecks or logistics issues
-
-5. **Highest Revenue Month**  
-   - Guides planning for future promotions and stock optimization
+4. **Top-Selling Product name**
+   
+   Best Performers:
+    • Jeans (**₦75K, 11%** revenue share) and Tablet (**₦72K, 11%**) drive sales.
+    • Energy Drink and History Book also contribute significantly (~10% each).
+    •** Lowest Margin:** Organic Tea (**9.3%** revenue) has the lowest average sales (₦750). Test pricing or marketing tactics to improve its performance.
+   
+5. **Customer Behavior**
+    • Avg. Order Value (Delivered): **₦744**
+    • **High-Value Products:** Air Fryer (₦885/order) and History Book (₦785/order) have the highest average sales.
+   
+6. **Monthly Trends**
+    • Revenue Peaks: Observe spikes in the month of October, **2023 with ~140K** and **563** in value and count respectively
 
 ---
 
 ## Recommendations
 
-1. **Stock High-Performing Categories**  
-   Focus inventory and marketing on categories that consistently generate revenue.
-
-2. **Improve Delivery Pipeline**  
-   Investigate and reduce 'Pending' or 'Cancelled' deliveries to increase customer satisfaction.
-
-3. **Run Loyalty Programs in Peak Months**  
-   Leverage historical high-revenue periods for targeted discounting and retention.
+1. **Reduce Cancellations/Returns:**
+   
+      • Optimize product descriptions and images to set accurate expectations.
+      • Offer incentives for keeping returned items (e.g., discounts on future purchases).
+   
+2. **Boost Electronics Sales:**
+      • Electronics has the lowest average sales per order (**₦666**). Consider bundling strategies or promotions to boost order value.
+   
+3. **Promote High-Performing Products:**
+      • sponsor Jeans, Tablets, and Air Fryers in targeted ads or homepage banners.
+   
+4. **Improve Low Performers:**
+      • Run A/B tests on pricing/packaging for Organic Tea and Protein Bars.
+   
+5. **Leverage Seasonal Trends:**
+      • Plan inventory and marketing around revenue peaks (e.g., holidays)
 
 ---

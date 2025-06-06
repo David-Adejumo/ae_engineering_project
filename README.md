@@ -7,7 +7,7 @@ This project is part of an end-to-end ETL and analytics pipeline that transforms
 ## Introduction (Objectives)
 
 The main goals of this project are to:
-- build and end to end pipleine with data transformation 
+- Build and end to end pipleine with data transformation 
 - Understand product category performance trend
 - Evaluate order delivery efficiency  
 - Measure revenue trends and customer behavior  

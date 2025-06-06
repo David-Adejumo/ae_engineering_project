@@ -15,7 +15,7 @@ The main goals of this project are to:
 
 ---
 
-## Methodology (with Rationale)
+## Methodology
 ### 1. Ingestion
 -  **Tool**: Python (`pandas`, `sqlite3`)
 - 📌 **Reason**: Python is lightweight and flexible, making it ideal for reading CSVs and inserting into a local SQLite database.
